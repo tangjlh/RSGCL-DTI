@@ -13,3 +13,7 @@ If you want to use your own dataset, you need to prepare four files: matrix_d_d.
 You can use the following code to run our demo.<br>
 Foe example: python train.py --data_path ./dataset/BioSNAP/BioSNAP.csv --metric auc --dataset_type classification --save_dir save --target_columns label --epochs 150 --ensemble_size 1 --num_folds 10 --batch_size 50 --aggregation mean --dropout 0.1 --save_preds
 
+# Notice
+We uploaded the pt file of the model's weights on the equilibrium datasets Human, C.elegans, DrugBank, and BioSNAP datasets to Google Driver
+https://drive.google.com/drive/folders/15pz5F-UWmau7I69cYnwVSeYsLKZJrPnm?usp=drive_link
+
