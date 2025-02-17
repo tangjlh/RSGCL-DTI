@@ -11,8 +11,8 @@ from RSGCL.args import TrainArgs
 import scipy.sparse as sp
 from torch.optim import AdamW
 from torch.nn.functional import cosine_similarity
-lr_warmup_epochs = 1
-epochs = 1
+lr_warmup_epochs = 2000
+epochs = 2000
 lr = 2e-5
 mm = 0.99
 device = torch.device("cuda:0")
